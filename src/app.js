@@ -8,7 +8,7 @@ const api = require('./routes/api');
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://splendorous-arithmetic-98e4d7.netlify.app',
 }));
 app.use(morgan('combined'));
 
